@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Curious Commuter Lit List | Reading Log</title>
+</head>
+<body>
+     <h1>The Curious Commuter Lit List</h1>
+    <nav id="bar">
+        <ul>
+
+            <li class="barcode"><a href="x">Home</a></li>
+            <li class="barcode"><a href="x">Reading Log</a></li>
+              <li class="barcode"><a href="x">Features</a></li>
+
+        </ul>
+    </nav>
+    <main>
+            <br>
+            <h2>Community Reading Log</h2>
+            <form id="log-form" novalidate>
+            <fieldset>
+            <div class="log-details">
+                <br>
+                <br>
+                <label for="book-title">
+                    Book Title:<br>
+                   <textarea id="book-title" class="expandable_input" rows="1" placeholder="e.g., Butter: A Novel of Food and Murder" aria-describedby="book-title-error"></textarea>
+                </label>
+                <span id="book-title-error" class="error-message" aria-live="polite"></span>
+                <br>
+                <br>
+                <label for="author">
+                    Author:<br>
+                    <textarea id="author" class="expandable_input" rows="1" placeholder="e.g., Asako Yuzuki" aria-describedby="author-error"></textarea>
+                </label>
+                <span id="author-error" class="error-message" aria-live="polite"></span>
+
+                <br>
+                <br>
+
+                <label for="date">
+                    Date:<br>
+                    <input type="date" id="date" aria-describedby="date-error"/>
+                </label>
+                <span id="date-error" class="error-message" aria-live="polite"></span>
+
+                <br>
+                <br>
+
+                <label for="minutes">
+                    Minutes:<br>
+                    <input type="number" id="minutes" aria-describedby="minutes-error"/>
+                </label>
+                <span id="minutes-error" class="error-message" aria-live="polite"></span>
+
+                <br>
+                <br>
+
+                <label for="genre">
+                    Genre:<br>
+                    <select id="genre" aria-describedby="genre-error">
+                        <option value="fiction">Fiction & Literature</option>
+                        <option value="nonfiction">Non Fiction</option>
+                    </select>
+                </label>
+                <span id="genre-error" class="error-message" aria-live="polite"></span>
+
+                <br>
+                <br>
+
+                 <label for="subgenre">
+                    Subgenre:<br>
+                    <textarea id="subgenre" class="expandable_input" rows="1" placeholder="e.g., Thriller, Mystery, Literary, Food Writing, Psychological Exploration" aria-describedby="subgenre-error"></textarea>
+                </label>
+                <span id="subgenre-error" class="error-message" aria-live="polite"></span>
+
+                <br>
+                <br>
+
+                <label for="comments">
+                    Comments:<br>
+                    <textarea id="comments" name="textarea" class="expandable_input" rows="10" placeholder="How is the book so far?" aria-describedby="comments-error"></textarea>
+                </label>
+                <span id="comments-error" class="error-message" aria-live="polite"></span>
+
+                <br>
+                <br>
+
+                <label for="username">
+                    Submission by:<br>
+                    <textarea id="username" class="expandable_input" rows="1" placeholder="UserName" aria-describedby="username-error"></textarea>
+                </label>
+                <span id="username-error" class="error-message" aria-live="polite"></span>
+
+                <br>
+                <br>
+
+                <button type="submit" id="submit-button">Submit</button>
+                <button type="button" id="cancel-edit" hidden>Cancel Edit</button>
+
+
+            </div>
+            </fieldset>
+            </form>
+
+            <section id="posts-section">
+                <h2>Recent Entries</h2>
+                <div id="posts"></div>
+            </section>
+    </main>
+    <footer>M. Slade, 2026</footer>
+</body>
+
+</html>
