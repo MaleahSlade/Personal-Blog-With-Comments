@@ -5,13 +5,13 @@ but also have private journal-style entries on their personal profiles.
 
 The reading log allows users to add the following pieces of information:
 
-Book Title
-Author
-Date
-Minutes
-Genre
-Subgenre
-Comments
+Book Title,
+Author,
+Date,
+Minutes,
+Genre,
+Subgenre,
+Comments,
 Submission UserName
 
 Users can edit and delete their submissions after posting. Submissions are saved in local storage. 
