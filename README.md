@@ -3,7 +3,7 @@ The purpose of this feature is to encourage users to log the minutes they read w
 require users to create an account to write log entries. I would also like to give users the option to not only make public comments 
 but also have private journal-style entries on their personal profiles. 
 
-The Reading log allows users to add the following pieces of information:
+The reading log allows users to add the following pieces of information:
 
 Book Title
 Author
